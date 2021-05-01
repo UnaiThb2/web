@@ -1,0 +1,39 @@
+* {
+    color: #F2F2F2;
+    font-family: 'League Spartan Bold', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-ul-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;  
+    width: 100%;
+}
+.nav-ul-right {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;  
+    width: 100%;
+}
+nav{
+   
+    position: sticky;
+    top: 0;
+}
+
+.main-view {
+    top: 0;
+    background-color: #1c1d25;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.nav-li {
+    padding-left: 2rem;
+}
